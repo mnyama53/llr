@@ -2,8 +2,8 @@ import React from "react";
 
 const Nav = () => {
     return (
-        <nav>
-            <ul>
+        <nav className="nav">
+            <ul className="nav-list">
                 <li><a href="/Home">Home</a></li>
                 <li><a href="/Menu">Menu</a></li>
                 <li><a href="/Order">Order Online</a></li>
